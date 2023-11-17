@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 20px;
+}
+
+input {
+  width: 500px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto 50px;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  margin: 0 auto 50px;
+  display: block;
+  resize: none;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto 50px;
+  display: block;
+  font-size: 16px;
+}
+
+#output {
+  width: 500px;
+  display: block;
+  height: 500px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 20px;
+  overflow: scroll;
+  background-color:black;
+}
+
+
+div#output{
+  margin-bottom: 10px;
+}
+
+.message.sent {
+  color:white;
+  background-color: darkblue;
+  border-radius: 15px;
+  padding: 10px;
+  align-self: flex-end;
+  text-align: right;
+  max-width: 40%; /* Adjust the maximum width as needed */
+  margin-left: auto;
+  overflow:scroll;
+  margin-top: 10px;
+}
+
+/* Styles for received messages (from others) */
+.message.received {
+  color:white;
+  background-color: darkorange;
+  border-radius: 15px;
+  padding: 10px;
+  align-self: flex-end;
+  text-align: left;
+  max-width: 40%; /* Adjust the maximum width as needed */
+  margin-right: auto;
+  overflow:scroll;
+  margin-top: 10px;
+}
+
+p.sender{
+font-size: 12px;
+margin-bottom: 10px;
+}
